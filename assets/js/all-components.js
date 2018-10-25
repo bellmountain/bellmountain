@@ -25,24 +25,6 @@ jQuery(document).ready(function(){
 		}
 	});
 
-
-	// progressbar animation
-
-	jQuery('[data-action="progress-bar"]').waypoint({
-
-		handler: function(event, direction) {
-
-			jQuery('[data-action="progress-bar"]').find('.progress-bar-L1').each(function(){
-				var width = jQuery(this).data('width');
-				jQuery(this).css('width', width);
-			});
-			
-		},
-		
-		offset: '90%'
-
-	});
-
 	// accordion js
 
 	var accordions = jQuery('[data-action="accordionWithImage"]');
