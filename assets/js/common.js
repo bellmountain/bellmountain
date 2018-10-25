@@ -195,12 +195,10 @@ jQuery(document).ready(function(){
 jQuery(window).load(function(){
 
 	// Wow init
-	/*
 	new WOW({
 		offset: 150,
 		mobile: false
 	}).init();
-	*/
 	// Visual Composer Scroller
 	setTimeout(function(){
 		//if ( window.skrollr ) {
@@ -219,36 +217,6 @@ jQuery(window).load(function(){
 
 
 (function(){
-
-		var masonryBlogGrid = $('[data-action="blog-masonry-grid"]');
-
-
-		if ( masonryBlogGrid.length > 0 ) {
-
-			masonryBlogGrid.each(function() {
-
-				window.homeBlogMsnry = $(this).isotope({
-					itemSelector: '.front-blog-post',
-					isInitLayout: false,
-					layoutMode: 'masonry'
-				});
-
-			});
-		}
-
-
-	$(window).load(function(){
-
-		/* Blog masonry re layout */
-
-		if ( typeof homeBlogMsnry !== "undefined" ) {
-			homeBlogMsnry.isotope('layout');
-		}
-
-	});
-
-
-
 
 	function matxImageCarousel() {
 		
