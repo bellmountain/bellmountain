@@ -228,54 +228,6 @@ jQuery(document).ready(function(){
 	}
 
 
-
-	/* global fun-fact count  */
-
-	var $countWrapper = $('[data-action="count-up"]');
-
-	var counterUpConfig = {
-		delay: 20,
-		time: 1500
-	};
-
-	if( $countWrapper.length > 0 ){
-
-		$countWrapper.each( function() {
-
-			var self = $(this);
-
-			var countItem = self.find('.countNumb');
-
-			var serviceTabMenu = self.find('.matx-service-tabbar a');
-				
-			countItem.counterUp({
-				delay: counterUpConfig.delay,
-				time: counterUpConfig.time
-			});
-
-			/*====== count up statistic ====== */
-
-			if( serviceTabMenu.length > 0 ){
-				serviceTabMenu.on('click', function(e) {
-					e.preventDefault();
-
-
-					var statisticsCount = $(this).closest('.mdl-js-tabs').find( $(this).attr('href') ).find('.countNumb');
-
-
-					
-					statisticsCount.counterUp({
-						delay: 35,
-						time: 600
-					});
-				});
-			}
-
-		});
-	}
-
-
-
 	/* show video popup  */
 	jQuery('.show-video').magnificPopup({
 		type: 'iframe',
