@@ -201,15 +201,6 @@ require get_template_directory() . '/inc/color-css.php';
 
 
 
-/* Load visual composer customization file. */
-function matx_include_visual_composer() {
-	global $inc_dir;
-	require $inc_dir. '/matx-extend-vc.php';
-}
-
-if( class_exists('Vc_Manager')) {
-	add_action( 'init', 'matx_include_visual_composer', 99 );
-}
 
 /* Include CMB 2 metabox */
 function matx_include_cmb2_fields() {
@@ -325,9 +316,6 @@ function matx_scripts() {
 	/* visual composer styles */
 	wp_register_style( 'vc', $matx_css .'js_composer.min.css', array(), '2.0' );
 
-	/* visual composer custom styles */
-	wp_register_style( 'vc_custom', $matx_css .'vc_custom.css', array(), '2.0' );
-
 	/* Enqueue Matx styles */
 
 	wp_enqueue_style('mdi-font');
@@ -380,7 +368,6 @@ function matx_scripts() {
 		wp_enqueue_style('animate');
 		wp_enqueue_style('matx-common');
 		wp_enqueue_style('vc');
-		wp_enqueue_style('vc_custom');
 
 		// disable main.css for all blog related pages
 		if( ! ( is_search() || is_single() || is_category() || is_archive() || is_author() || is_tag() || is_page_template('template-blog.php') ) ) {

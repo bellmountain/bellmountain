@@ -191,16 +191,6 @@ jQuery(window).load(function(){
 		offset: 150,
 		mobile: false
 	}).init();
-	// Visual Composer Scroller
-	setTimeout(function(){
-		//if ( window.skrollr ) {
-		if (false) {
-			window.VC_Skrollr = window.skrollr.init();
-			window.VC_Skrollr.refresh();
-		}
-	}, 100);
-
-
 	// Hide Loader
 	jQuery('#loader').fadeOut();
 

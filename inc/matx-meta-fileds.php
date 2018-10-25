@@ -278,7 +278,6 @@ function matx_custom_metafields() {
 	        'style_one'   	=> esc_html__( 'Style One', 'matx' ),
 	        'style_two'   	=> esc_html__( 'Style Two', 'matx' ),
 	        'style_three'   => esc_html__( 'Style Three', 'matx' ),
-	        'style_vc' 		=> esc_html__( 'Visual Composer', 'matx' ),
 	    )
 	) );
 
