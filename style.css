@@ -1,0 +1,34 @@
+/*
+Theme Name: 	Matx
+Theme URI: 		http://themeforest.net/user/coderpixel
+Author: 		CoderPixel
+Author URI: 	http://coderpixel.com
+Description: 	Material design agency WordPress Theme
+Version: 		2.0.0
+License: 		Custom
+License URI: 	http://themeforest.net/licenses
+Text Domain: 	matx
+Tags: 			two-columns, three-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-menu, featured-images, full-width-template, post-formats, sticky-post
+*/
+
+.wp-caption {}
+.wp-caption-text {}
+.sticky {}
+.screen-reader-text  {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {
+	float: right;
+	
+}
+.alignleft {
+	float: left;
+	
+}
+.aligncenter {
+	text-align: center;
+}
+
+
+
+

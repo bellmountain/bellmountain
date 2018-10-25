@@ -1,0 +1,10 @@
+ 
+	div[id^='_matx_post_format'].postbox {
+		display: none;
+	}
+	.postbox-hide {
+		display: none!important;
+	}
+	.postbox-show {
+		display: block!important;
+	}

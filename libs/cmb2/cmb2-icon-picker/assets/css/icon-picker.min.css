@@ -1,0 +1,146 @@
+/*!
+ * Font Awesome Icon Picker
+ * http://mjolnic.github.io/fontawesome-iconpicker/
+ *
+ * Originally written by (c) 2014 Javier Aguilar @mjolnic
+ * Licensed under the MIT License
+ * https://github.com/mjolnic/fontawesome-iconpicker/blob/master/LICENSE
+ *
+ */
+
+ .ai-icon-picker-wrapper, .ai-icon-picker-wrapper * {
+    box-sizing: border-box;
+ }
+
+.ai-icon-picker-wrapper {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    background-color: rgba(0,0,0,.5);
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .3s;
+            transition: all .3s;
+}
+
+.ai-icon-picker-backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.ai-icon-picker-wrapper.ai-show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.ai-icon-picker-outer-container {
+    width: 70%;
+    height: 70%;
+    margin: 7% auto 0px auto;
+    background: #eee;
+    box-shadow: 0px 1px 5px rgba(0,0,0,.3);
+    padding: 100px 20px 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.ai-icon-picker-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.ai-icon-picker-info-container {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 0px 20px;
+}
+.ai-icon-picker-tab-n-search-container {
+    position: absolute;
+    width: 100%;
+    padding-right: 180px;
+    bottom: 100%;
+    left: 0;
+}
+.ai-icon-picker-icons-container {
+    background: #fff;
+    padding: 15px;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.ai-icon-sets {
+     display: none;
+}
+.ai-icon-sets.active {
+    display: inline-block;
+}
+
+.ai-icon-tab-items {
+    margin: 0px;
+}
+.ai-icon-tab-items li {
+    display: inline-block;
+    background: #D6D6D6;
+    padding: 8px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.ai-icon-tab-items li.active {
+    background-color: #fff;
+}
+
+.ai-icon-search-wrapper {
+    width: 180px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.ai-icon-search-wrapper .ai-icon-search-input{
+    margin: 0px;
+    width: 100%;
+}
+
+
+.ai-icons {
+    display: table;
+    margin: 0px;
+}
+.ai-icons li {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 1px solid #E0E0E0;
+    margin: 2px;
+    border-radius: 3px;
+    background: #f5f5f5;
+    font-size: 19px;
+    cursor: pointer;
+}
+.ai-icons li.active {
+    background-color: #0085ba;
+    border-color: #0085ba;
+    color: #fff;
+}
+
+
+.ai-icon-picker-title {
+    margin: 25px 0 0;
+}
+.ai-icon-picker-close {
+    top: 10px;
+    right: 8px;
+}

@@ -1,0 +1,443 @@
+.btn-highlight {
+  background-color: #ff5252;
+}
+.btn-highlight:hover {
+  background-color: #ff5252;
+}
+.matx-btn-wrap .matx-primary-btn.matx-btn-brand {
+  background: #ff5252;
+}
+@-webkit-keyframes cpScale {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+@-moz-keyframes cpScale {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+         transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+@-o-keyframes cpScale {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+       transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+       transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+       transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+@keyframes cpScale {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+      -o-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+      -o-transform: scale(0.7);
+         transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+      -o-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+@-webkit-keyframes cpScaleReverse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+@-moz-keyframes cpScaleReverse {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+         transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+@-o-keyframes cpScaleReverse {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+       transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+       transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+       transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+@keyframes cpScaleReverse {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+      -o-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+      -o-transform: scale(0.7);
+         transform: scale(0.7);
+    background-color: #fff;
+    color: #ff5252;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+      -o-transform: scale(1);
+         transform: scale(1);
+    background-color: #ff5252;
+    color: #fff;
+  }
+}
+.is-invalid .mdl-textfield__label:after {
+  background-color: #ff5252;
+}
+.main-nav ul li a:hover,
+.main-nav ul li:hover > a,
+.main-nav ul li.active > a {
+  color: #ff5252;
+}
+.main-nav > ul > li ul li.menu-item-has-children:hover > a:after {
+  color: #ff5252;
+}
+.main-nav > ul > li ul li:hover > a {
+  color: #ff5252!important;
+}
+.main-nav ul ul li.current-menu-item a,
+.main-nav > ul > li ul li a:hover {
+  color: #ff5252!important;
+}
+.color-schema-white .main-nav ul li a:hover {
+  color: #ff5252;
+}
+.color-schema-white .main-nav ul li:hover a {
+  color: #ff5252;
+}
+.color-schema-white .main-nav ul li.active a {
+  color: #ff5252;
+}
+.color-schema-white .main-nav ul li a:hover {
+  color: #ff5252;
+}
+.color-schema-white .main-nav ul li:hover a {
+  color: #ff5252;
+}
+.color-schema-white .main-nav ul li.active a {
+  color: #ff5252;
+}
+.main-header.is-sticky .main-nav ul li.active a {
+  border-bottom-color: #ff5252;
+}
+.single-imodule .icon-box i {
+  color: #ff5252;
+}
+.single-imodule.rbodard-imodule .icon-box i {
+  color: #ff5252;
+}
+.single-imodule.rbodard-imodule:hover .icon-box {
+  background-color: #ff5252;
+}
+.single-imodule.imodule-slide .icon-box i {
+  color: #ff5252;
+}
+.single-imodule.hov-white-red:hover .icon-box {
+  background: #ff5252;
+}
+.single-imodule.clscheme-light .icon-box i {
+  color: #ff5252;
+}
+.single-imodule.csch-tp-red .icon-box i {
+  color: #ff5252;
+}
+.why-chose-us-cards.specialty-slider-card .card-head {
+  color: #ff5252;
+}
+.thumb-slides-container.owl-theme .owl-controls .owl-page.active span {
+  background: #ff5252;
+}
+.mdl-card__title-text a:hover {
+  color: #ff5252;
+}
+.sticky .mdl-card:after {
+  background: #ff5252;
+}
+.mdl-card__actions.mdl-card--border a.blog-comments:hover {
+  color: #ff5252;
+}
+.mdl-card__actions.mdl-card--border a.blog-share:hover {
+  color: #ff5252;
+}
+.footer-social li a:hover {
+  color: #ff5252;
+}
+.styled-paginantion .owl-page.active span {
+  background: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+.styled-paginantion.colorsch-white .owl-page.active span {
+  background: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+.styled-paginantion .owl-page.active span {
+  background: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+.tweetSlider.styled-paginantion.colorsch-white .owl-page.active span {
+  background: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+.tweetSlider.styled-paginantion.colorsch-black .owl-page.active span {
+  background: #ff5252 !important;
+  border-color: #ff5252 !important;
+}
+.single-imodule .icon-box i {
+  color: #ff5252;
+}
+.progress-bar-L1 {
+  background-color: #ff5252;
+}
+.wcu-collapse li.init-color,
+.wcu-collapse li.collapse-open {
+  background: #ff5252;
+}
+.wcu-collapse li.init-color .collapse-label,
+.wcu-collapse li.collapse-open .collapse-label {
+  background: #ff5252;
+}
+.wcu-collapse li.init-remove-color .icwrap {
+  color: #ff5252;
+}
+.wcu-collapse .collapse-label .icwrap {
+  color: #ff5252;
+}
+.matx-service-tabbar .mdl-tabs__tab.is-active i {
+  color: #ff5252;
+}
+.matx-service-tabbar .mdl-tabs__tab.is-active:after {
+  background: #ff5252 !important;
+}
+.tab-histry span {
+  color: #ff5252;
+}
+.satistic .top i {
+  color: #ff5252;
+}
+.portfolio-category li.active {
+  color: #ff5252;
+  border-bottom-color: #ff5252;
+}
+.portfolio-meta i {
+  color: #ff5252;
+}
+.shot-count-inner .mdl-button.favorited,
+.shot-count-inner .mdl-button.favorited:focus {
+  background: #ff5252;
+}
+.member-social li a:hover {
+  color: #ff5252;
+}
+.team-style-2 .team-member .social li a:hover {
+  color: #ff5252;
+}
+.team-style-2 .team-member .member-info .member-role {
+  color: #ff5252;
+}
+.pricing-table.recommended-plan .plan-price span {
+  color: #ff5252;
+}
+.contact-info li a:hover {
+  color: #ff5252;
+}
+.contact-info .ci-icons {
+  color: #ff5252;
+}
+.sweet-alert button.cancel {
+  background: #ff5252 !important;
+}
+.portfolio-box-style-3 .single-portfolio .pf-overlay,
+.portfolio-box-style-2 .single-portfolio .pf-overlay {
+  background: rgba(255, 82, 82, 0.8);
+}
+.portfolio-box-style-3 .single-portfolio .protfolio-image .pf-overlay,
+.portfolio-box-style-2 .single-portfolio .protfolio-image .pf-overlay {
+  background: rgba(255, 82, 82, 0.8);
+}
+.map-buttons {
+  background-color: rgba(255, 82, 82, 0.8);
+}
+.map-buttons:hover {
+  background-color: rgba(255, 82, 82, 0.5);
+}
+.blog-page .main-nav ul li a:hover {
+  color: #ff5252;
+}
+.blog-page .main-nav ul li.active a {
+  color: #ff5252;
+}
+.single .banner-content .share-social li a:hover > * {
+  color: #ff5252;
+}
+.post-meta a:hover {
+  color: #ff5252;
+}
+.comment-text ul li:before,
+.post-entry ul li:before {
+  background-color: #ff5252;
+}
+.comment-text blockquote,
+.post-entry blockquote {
+  border-left: 5px solid #ff5252;
+}
+.share-social li a:hover {
+  color: #ff5252;
+}
+.comment-reply-title a:hover {
+  color: #ff5252 !important;
+}
+.comment-reply:hover {
+  background: #ff5252;
+}
+.logged-in-as a:hover {
+  color: #ff5252;
+}
+.widget ul li a:hover {
+  color: #ff5252;
+}
+.widget_calendar #wp-calendar tbody td:not(.pad):hover {
+  background: #ff5252;
+}
+.widget_calendar #wp-calendar tbody td:not(.pad) a {
+  color: #ff5252;
+}
+.widget_calendar #wp-calendar a {
+  color: #ff5252;
+}
+.tagcloud a:hover {
+  background-color: #ff5252;
+}
+.single-pf-content a {
+  color: #ff5252;
+}
+.fullwidth-pagination a:hover {
+  color: #ff5252;
+}
