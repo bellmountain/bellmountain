@@ -49,14 +49,6 @@ jQuery(document).ready(function(){
 		menuFun.hide();
 	});
 
-	// jwplayer video post
-
-	jQuery('.player').each(function(){
-
-		jQuery(this).cp_jw_player();
-
-	});
-
 
 	// blog post slider
 	(function($){
